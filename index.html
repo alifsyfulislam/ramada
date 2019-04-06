@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="ad.size" content="width=300,height=250">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ramadan Alert</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="ad_area">
+    <div class="salah_1">
+        <h4>ফজর</h4>
+        <small id="fajarAzan">04:29:00</small>
+    </div>
+    <div class="salah_2">
+        <h4>জহুর</h4>
+        <small id="johurAzan">12:01:00</small>
+    </div>
+    <div class="salah_3">
+        <h4>আসর</h4>
+        <small id="asarAzan">03:29:00</small>
+    </div>
+    <div class="salah_4">
+        <h4>মাগরিব</h4>
+        <small id="magribAzan">06:17:00</small>
+    </div>
+    <div class="salah_5">
+        <h4>এশা</h4>
+        <small id="eshaAzan">07:34:00</small>
+    </div>
+
+    <div class="counter_box">
+        <h3>Ramadan Mubarak</h3>
+        <br/>
+        <h3 id="title"></h3>
+        <h2 id="countDown"></h2>
+    </div>
+
+    <audio id="azanSource" preload="auto" src="audio/Madina-Adzan-Fajr.mp3"></audio>
+    <button id="playAudio">Play Azan</button>
+</div>
+<script src="js/ramadan.js"></script>
+</body>
+</html>
